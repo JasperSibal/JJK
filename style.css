@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  color: white;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+/* Site Logo */
+
+.jjk-logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 500px;
+  padding: 10px;
+
+}
+
+.site-header {
+  text-align: center;
+}
+
+/* Font Properties */
+
+h1 {
+  font-size: 50px;
+  margin: 5px;
+}
+
+.font-bebas{
+  font-family: 'Bebas Neue', sans-serif;
+}
+
+h2 {
+  font-size: 50px;
+  margin: 5px;
+}
+
+h3 {
+  font-size: 25px;
+  margin: 5px;
+  text-align: center;
+  margin-top: 0;
+}
+
+
+/* About Jujutsu Kaisen */
+
+.jjk-content {
+  font-size: 20px;
+  text-align: justify;
+  max-width: 700px;
+  margin: auto;
+}
+
+/* Jujutsu Kaisen Characters */
+
+.character-img {  
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 700px;
+  margin: auto;
+}
+
+.char-img {
+  width: 250px;
+  margin: 20px;
+  margin-bottom: 3px;
+  margin-top: 0px;
+  border: 2px solid white;
+}
+
+
+/* Chapter List */
+
+.jjk-chap {
+  font-size: 20px;
+  text-align: justify;
+  max-width: 700px;
+  margin: auto;
+}
+
+.jjk-link {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+  
+}
+
+.jjk-link a {
+  color: white;
+  font-size: 20px;
+}
+
+/* Column */
+
+.column {
+  float: left;
+  width: 50%;
+}
+
+/* Clear floats after the columns | Connected to Column */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  padding-right: 20px;
+  gap: 20px;
+  font-size: 20px;
+}
+
+footer a {
+  color: white;
+  font-size: 20px;
+}
+
